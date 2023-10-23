@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import Link from "next/link";
 export default function Home() {
   return (
@@ -14,6 +15,16 @@ export default function Home() {
           <Button asChild className="hidden sm:flex">
             <Link href="/dashboard">Go to dashboard</Link>
           </Button>
+        </div>
+      </div>
+      <div className="h-screen flex flex-col items-center justify-center gap-2">
+        <h1 className="2xl font-medium text-emerald-700 text-center">
+          We are currently building this site if you are interested join the
+          waiting list
+        </h1>
+        <div className="flex w-full max-w-sm items-center space-x-2">
+          <Input type="email" placeholder="Email" />
+          <Button type="submit">Subscribe</Button>
         </div>
       </div>
     </div>

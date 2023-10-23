@@ -11,7 +11,7 @@ export default function Dashboard() {
   }
   return (
     <div className="px-24 py-5 ">
-      <div className="w-full flex flex-row justify-between gap-4">
+      <div className="w-full flex flex-row justify-evenly gap-2">
         <h1 className="font-medium text-2xl text-green-600">linkslySocial</h1>
         <UserButton afterSignOutUrl="/" />
       </div>
