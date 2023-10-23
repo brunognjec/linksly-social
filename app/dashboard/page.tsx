@@ -10,8 +10,8 @@ export default function Dashboard() {
     return null;
   }
   return (
-    <div className="px-24 py-5">
-      <div className="flex flex-row justify-between ">
+    <div className="px-24 py-5 ">
+      <div className="w-full flex flex-row justify-between gap-4">
         <h1 className="font-medium text-2xl text-green-600">linkslySocial</h1>
         <UserButton afterSignOutUrl="/" />
       </div>
