@@ -18,9 +18,9 @@ export default function Home() {
         </div>
       </div>
       <div className="h-screen flex flex-col items-center justify-center gap-2">
-        <h1 className="2xl font-medium text-emerald-700 text-center">
+        <h1 className="text-2xl font-medium text-emerald-700 text-center">
           We are currently building this site if you are interested join the
-          waiting list
+          waiting list. We will let you know through the mail when we are back on track, number of our current users is <span className="font-bold text-2xl">5</span>.
         </h1>
         <div className="flex w-full max-w-sm items-center space-x-2">
           <Input type="email" placeholder="Email" />

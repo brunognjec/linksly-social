@@ -1,5 +1,7 @@
+'use client'
 import Image from "next/image";
 import SocialsIcons from "@/components/socialsIcons";
+import Link from "next/link";
 
 export default function Brunki() {
   return (
@@ -17,7 +19,7 @@ export default function Brunki() {
         </h1>
         <p className="w-40 text-center text-zinc-600">
           Fullstack developer working from home, watches anime and drinks
-          monster all day
+          monster all day. And writes <Link href={'/brunki/blog'}>blog</Link>.
         </p>
         <SocialsIcons />
       </div>
